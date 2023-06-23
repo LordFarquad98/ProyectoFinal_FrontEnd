@@ -24,9 +24,22 @@
     font-stretch: normal;
     text-decoration: none;
 }
+.content_pros {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    line-height: 151%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
 .frasehome {
     gap: 28px;
-    width: 400px;
+    width: 100%;
     display: flex;
     align-items: flex-end;
     flex-shrink: 0;
@@ -71,7 +84,18 @@ main{
     height: 100%;
     position: absolute;
 }
- 
+.pros {
+    gap: 50px;
+    top: 900px;
+    width: 100%;
+    display: flex;
+    padding: 40px 20px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(59, 221, 243, 1);
+  } 
 .Tenista {
     gap: 100px;
     top: 164px;
@@ -113,6 +137,18 @@ main{
     font-stretch: normal;
     text-decoration: none;
 }
-
+.title_pros {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 36px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+    line-height: 114%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
 
  
