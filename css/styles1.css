@@ -495,3 +495,54 @@ main{
     font-stretch: normal;
     text-decoration: none;
   }
+
+  .BTY {
+    gap: 50px;
+    top: 2300px;
+    width: 80%;
+    display: flex;
+    padding: 40px 50px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(59, 221, 243, 1);
+  }
+  .BTY-text {
+    color: rgba(255, 255, 255, 1);
+    width: 324px;
+    height: auto;
+    font-size: 40px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Be Vietnam;
+    font-weight: 700;
+    line-height: 119.59999799728394%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .BTY-button {
+    gap: 10px;
+    width: 134px;
+    height: 44px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: rgba(35, 44, 80, 1);
+  }
+  .BTY-button-text {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 13.18055534362793px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
