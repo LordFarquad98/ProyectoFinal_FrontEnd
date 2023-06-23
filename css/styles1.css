@@ -1,3 +1,38 @@
+.button {
+    gap: 10px;
+    width: 134px;
+    height: 44px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: rgba(138, 71, 191, 1);
+  }
+
+.contentHome {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: right;
+    font-family: 'Be Vietnam',sans-serif ;
+    font-weight: 500;
+    line-height: 157%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.frasehome {
+    gap: 28px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
 header {
     gap: 200px;
     top: 40px;
@@ -7,14 +42,14 @@ header {
     position: absolute;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .MenuIcon {
+.MenuIcon {
     width: 15%;
     height: 15%;
   }
   
-  main{
+main{
     display: flex;
     position: relative;
     flex-direction: column;
@@ -35,9 +70,9 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
-  }
+}
  
-  .Tenista {
+.Tenista {
     gap: 100px;
     top: 164px;
     left: 40px;
@@ -47,59 +82,14 @@ header {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center
-  }
+}
 
-  .Tenista_img {
+.Tenista_img {
     width: 400px;
     height: 342px;
-  }
+}
 
-  .mobile-frasehome {
-    gap: 28px;
-    width: 400px;
-    display: flex;
-    align-items: flex-end;
-    flex-shrink: 0;
-    flex-direction: column;
-  }
-  .mobile-text60 {
-    color: rgba(35, 44, 80, 1);
-    height: auto;
-    font-size: 50px;
-    align-self: stretch;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    line-height: 114%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .mobile-text62 {
-    color: rgba(0, 0, 0, 1);
-    height: auto;
-    font-size: 16px;
-    align-self: stretch;
-    font-style: Medium;
-    text-align: right;
-    font-family: 'Be Vietnam',sans-serif ;
-    font-weight: 500;
-    line-height: 157%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .mobile-button7 {
-    gap: 10px;
-    width: 134px;
-    height: 44px;
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 50px;
-    justify-content: center;
-    background-color: rgba(138, 71, 191, 1);
-  }
-  .mobile-text64 {
+.text_button {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 13px;
@@ -110,5 +100,19 @@ header {
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
-  }
+}
+.textHome {
+    color: rgba(35, 44, 80, 1);
+    height: auto;
+    font-size: 50px;
+    align-self: stretch;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 114%;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+
  
