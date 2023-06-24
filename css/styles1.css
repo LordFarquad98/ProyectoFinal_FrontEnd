@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -32,19 +33,11 @@ header {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
-  padding: 10px;
   max-width: 100%;
   min-width: 367px;
   height: 60px;
   min-height: 60px;
 }
-
-/* width: Hug (367.68px)
-height: Hug (60px)
-top: 40px
-left: 56px
-gap: 200px */
-
 
 .LogoBox {
   height: 25px;
@@ -54,6 +47,7 @@ gap: 200px */
 .burger {
   height: 60px;
   width: 60px;
+  padding: 9.375px 6.563px;
 }
 
  main,section {
@@ -174,12 +168,17 @@ gap: 200px */
   font-weight: 500;
   height: auto;
   line-height: 151%;
+<<<<<<< HEAD
   margin-top: 30px;
   max-width: 450px;
+=======
+  margin-top: 50px;
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
   text-align: left;
   text-decoration: none;
   
 }
+<<<<<<< HEAD
 .Differences {
   gap: 20px;
   display: flex;
@@ -193,11 +192,19 @@ gap: 200px */
 .difference1 {
   gap: 21px;
   width: 446px;
-  display: flex;
+=======
+
+.Differences {
   align-items: flex-start;
-  flex-shrink: 0;
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
+  display: flex;
   flex-direction: column;
+  gap: 20px;
+  margin-left: 5%;
+  margin-right: 0;
+  margin-top: 65px;
 }
+<<<<<<< HEAD
 .Hdifference1 {
   gap: 8px;
   display: flex;
@@ -341,14 +348,16 @@ gap: 200px */
   text-decoration: none;
 }
 .difference3 {
-  gap: 21px;
-  width: 446px;
-  display: flex;
+=======
+.difference {
   align-items: flex-start;
-  flex-shrink: 0;
+  display: flex;
   flex-direction: column;
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
+  gap: 21px;
+  min-width: 446px;
 }
-.Hdifference3 {
+.Hdifference {
   gap: 8px;
   display: flex;
   align-self: stretch;
@@ -357,7 +366,7 @@ gap: 200px */
   border-radius: 50px 0 0 50px;
   background-color: rgba(138, 71, 191, 0.30000001192092896);
 }
-.Bdifference3 {
+.Bdifference {
   gap: 10px;
   display: flex;
   padding: 10px 25px;
@@ -366,25 +375,29 @@ gap: 200px */
   justify-content: center;
   background-color: rgba(138, 71, 191, 1);
 }
-.ndifference3 {
+.ndifference {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
   font-style: Bold;
   text-align: left;
+<<<<<<< HEAD
   font-family: "Be Vietnam Thin", sans-serif;
+=======
+  font-family: "Be Vietnam Thin", sans-serif;;
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
-.Tdifference3 {
+.Tdifference {
   gap: 10px;
   display: flex;
   padding: 10px;
   align-items: flex-start;
 }
-.Ttdifference3 {
+.Ttdifference {
   color: rgba(50, 56, 81, 1);
   height: auto;
   font-size: 16px;
@@ -396,13 +409,13 @@ gap: 200px */
   font-stretch: normal;
   text-decoration: none;
 }
-.cdifference3 {
+.cdifference {
   gap: 10px;
   display: flex;
   padding: 10px;
   align-items: flex-start;
 }
-.cpdifference3 {
+.cpdifference {
   color: rgba(179, 178, 183, 1);
   width: 360px;
   height: auto;
@@ -415,24 +428,39 @@ gap: 200px */
   font-stretch: normal;
   text-decoration: none;
 }
+
 .testimonios {
+<<<<<<< HEAD
   margin-left: 10%;
   margin-right:10%;
   width: 100%;
   height: 49%;
   display: flex;
   position: absolute;
+=======
+  background-color: antiquewhite;
+  margin-top: 56px;
+  min-width: 300px;
+  min-height: 359px;
+  max-width: 100%;
+  display: flex;
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
 }
+
 .Best-text {
   color: rgba(36, 46, 83, 1);
+<<<<<<< HEAD
   width: 334px;
   height: auto;
   position: relative;
   font-size: 39px;
   font-weight: bold;
+=======
+  font-size: 30px;
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
   text-align: center;
   font-family: "Be Vietnam", sans-serif;
   font-weight: 700;
@@ -451,18 +479,24 @@ gap: 200px */
   height: 71px;
   position: relative;
 }
+
 .Tbest {
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 219px;
+  height: 230px;
   padding: 0px 30px;
   box-sizing: border-box;
   justify-content: center;
 }
+
+
+
 .avatar_name {
+  margin-top: 33px;
+  margin-bottom: 21px;
   color: rgba(63, 72, 104, 1);
   height: auto;
   font-size: 16px;
@@ -476,7 +510,7 @@ gap: 200px */
 }
 .avatar_desc {
   color: rgba(185, 185, 193, 1);
-  width: 390px;
+  /* width: 390px; */
   height: auto;
   font-size: 16px;
   font-style: Medium;
@@ -488,6 +522,7 @@ gap: 200px */
   text-decoration: none;
 }
 .more-button {
+  margin-top: 45px;
   gap: 10px;
   width: 134px;
   height: 44px;
@@ -717,6 +752,9 @@ footer {
   .BTY-button-text{
     color: #8B48BF;
   }
+<<<<<<< HEAD
   
 
 }
+=======
+>>>>>>> 1bdc768b0c30dfac3c013d60ebcc62c9e5137c14
