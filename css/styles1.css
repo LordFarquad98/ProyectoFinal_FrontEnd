@@ -57,9 +57,6 @@ gap: 200px */
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
   margin-top: 25px;
   position: relative;
   background-color: rgba(176, 48, 48, 1);
@@ -71,6 +68,8 @@ main {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  max-width: 540px;
+  max-height: 456px;
 }
 
 .Tenista_img {
@@ -79,15 +78,15 @@ main {
 }
 
 .frasehome {
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
   margin-top: 60px;
-  max-width: 100%;
-  min-height: 228px;
-  width: 400px;
-  justify-content: space-around;
-  flex: 1 400px
+  max-width: 450px;
+  max-height: 228px;
+  min-width: 331px;
+  min-height: 331px;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .textHome {
@@ -161,6 +160,7 @@ main {
   line-height: 114%;
   font-stretch: normal;
   text-decoration: none;
+  max-width: 450px;
 }
 
 
@@ -175,24 +175,20 @@ main {
   height: auto;
   line-height: 151%;
   margin-top: 30px;
+  max-width: 450px;
   text-align: left;
   text-decoration: none;
+  
 }
-
-
-
-
-
-
 .Differences {
   gap: 20px;
-  top: 1250px;
-  left: 34px;
-  width: 88%;
   display: flex;
-  position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  max-width: 100%;
+  min-height: 65 0px;
+  width: 400px;
+  flex: 1 400px;
 }
 .difference1 {
   gap: 21px;
@@ -226,7 +222,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -244,7 +240,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -263,7 +259,7 @@ main {
   font-size: 16px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: 156%;
   font-stretch: normal;
@@ -301,7 +297,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -319,7 +315,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -338,7 +334,7 @@ main {
   font-size: 16px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: 156%;
   font-stretch: normal;
@@ -376,7 +372,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -394,7 +390,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -413,7 +409,7 @@ main {
   font-size: 16px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: 156%;
   font-stretch: normal;
@@ -477,7 +473,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: 156%;
   font-stretch: normal;
@@ -490,7 +486,7 @@ main {
   font-size: 16px;
   font-style: Medium;
   text-align: justify;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: 156%;
   font-stretch: normal;
@@ -517,7 +513,7 @@ main {
   font-size: 13px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
@@ -544,7 +540,7 @@ main {
   font-size: 40px;
   font-style: Bold;
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: 119.59999799728394%;
   font-stretch: normal;
@@ -569,7 +565,7 @@ main {
   font-size: 13.18055534362793px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
@@ -616,9 +612,8 @@ main {
   color: rgba(160, 160, 160, 1);
   height: auto;
   font-size: 13.18055534362793px;
-  font-style: SemiBold;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -642,7 +637,7 @@ main {
   font-size: 13.18055534362793px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
@@ -672,9 +667,8 @@ main {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -684,9 +678,8 @@ main {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -694,4 +687,30 @@ main {
 }
 footer {
   display: flex;
+}
+
+@media (min-width:1080px) and (max-width:2000px){
+  .margin{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .Differences{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+  .pros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #8B48BF;
+
+  }
+  
+
 }
