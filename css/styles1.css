@@ -576,6 +576,7 @@ footer {
 .footer-pc{
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   @media (max-width:1080px) {
     display: none;
   }
@@ -762,6 +763,9 @@ footer {
   flex-shrink: 0;
   flex-direction: row;
   justify-content: space-between;
+  @media (min-width:1080px){
+    padding: 10px 10px;
+  }
 }
 .mobile-iconosredessociales {
   width: 380px;
@@ -806,8 +810,8 @@ footer {
   align-items: flex-start;
   @media (min-width:1080px){
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: space-between;
   }
 }
 .mobile-text33 {
