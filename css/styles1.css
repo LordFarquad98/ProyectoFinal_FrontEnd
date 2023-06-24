@@ -353,6 +353,8 @@ header {
 .no_slide{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: space-evenly;
   @media (max-width:1080px){
     display: none;
   }
@@ -368,9 +370,9 @@ header {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  @media (max-width:1080px){
-    max-width: 0%;
-    min-width: 16%px;
+  @media (min-width:1080px){
+    display: flex;
+    
   }
 }
 
