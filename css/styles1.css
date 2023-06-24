@@ -435,7 +435,7 @@ main {
   margin-top: 33px;
   margin-bottom: 21px;
   color: rgba(63, 72, 104, 1);
-  height: auto;
+  height: 26px;
   font-size: 16px;
   font-style: Bold;
   text-align: left;
@@ -508,7 +508,7 @@ main {
 .BTY-text {
   color: rgba(255, 255, 255, 1);
   width: 324px;
-  height: auto;
+  height: 197px;
   font-size: 40px;
   font-style: Bold;
   text-align: center;
@@ -518,7 +518,6 @@ main {
   font-stretch: normal;
   text-decoration: none;
   @media (min-width:1080px){
-    height: 197px;
     text-align: left;
   }
 }
