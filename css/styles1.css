@@ -169,6 +169,7 @@ main{
     position: absolute;
     align-items: flex-start;
     flex-direction: column;
+    
   }
   .difference1 {
     gap: 21px;
@@ -202,7 +203,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -220,7 +221,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -239,7 +240,7 @@ main{
     font-size: 16px;
     font-style: Medium;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: 156%;
     font-stretch: normal;
@@ -277,7 +278,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -295,7 +296,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -314,7 +315,7 @@ main{
     font-size: 16px;
     font-style: Medium;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: 156%;
     font-stretch: normal;
@@ -352,7 +353,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -370,7 +371,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -389,7 +390,7 @@ main{
     font-size: 16px;
     font-style: Medium;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: 156%;
     font-stretch: normal;
@@ -453,7 +454,7 @@ main{
     font-size: 16px;
     font-style: Bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: 156%;
     font-stretch: normal;
@@ -466,7 +467,7 @@ main{
     font-size: 16px;
     font-style: Medium;
     text-align: justify;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: 156%;
     font-stretch: normal;
@@ -493,7 +494,7 @@ main{
     font-size: 13px;
     font-style: Medium;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
@@ -520,7 +521,7 @@ main{
     font-size: 40px;
     font-style: Bold;
     text-align: center;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 700;
     line-height: 119.59999799728394%;
     font-stretch: normal;
@@ -545,7 +546,7 @@ main{
     font-size: 13.18055534362793px;
     font-style: Medium;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
@@ -592,9 +593,9 @@ main{
     color: rgba(160, 160, 160, 1);
     height: auto;
     font-size: 13.18055534362793px;
-    font-style: SemiBold;
+    font-weight: bold;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 600;
     line-height: normal;
     font-stretch: normal;
@@ -616,9 +617,9 @@ main{
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 13.18055534362793px;
-    font-style: Medium;
+    font-weight: normal;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
@@ -648,9 +649,8 @@ main{
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 16px;
-    font-style: Regular;
     text-align: left;
-    font-family: Be Vietnam;
+    font-family: sans-serif;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
