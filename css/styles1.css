@@ -137,38 +137,17 @@ main {
 }
 
 
-
-
-
-.content_pros {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 16px;
-  align-self: stretch;
-  font-style: Medium;
-  text-align: left;
-  font-family: "Be Vietnam", sans-serif;
-  font-weight: 500;
-  line-height: 151%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
 .pros {
-  gap: 50px;
-  top: 900px;
-  width: 100%;
-  display: flex;
-  padding: 40px 20px;
-  position: absolute;
   align-items: center;
+  background-color: rgba(59, 221, 243, 1);
+  box-sizing: border-box;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
-  background-color: rgba(59, 221, 243, 1);
+  margin-top: 20px;
+  padding: 40px 20px;
+  width: 100%;
 }
-
-
 
 .title_pros {
   color: rgba(255, 255, 255, 1);
@@ -177,12 +156,33 @@ main {
   align-self: stretch;
   font-style: Bold;
   text-align: left;
-  font-family: "Be Vietnam", sans-serif;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: 114%;
   font-stretch: normal;
   text-decoration: none;
 }
+
+
+.content_pros {
+  align-self: stretch;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Be Vietnam Thin", sans-serif;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: Medium;
+  font-weight: 500;
+  height: auto;
+  line-height: 151%;
+  margin-top: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+
+
+
+
+
 
 .Differences {
   gap: 20px;
