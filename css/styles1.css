@@ -372,12 +372,13 @@ main {
 .no_slide{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   @media (max-width:1080px){
     display: none;
   }
 }
 .testimonios {
-  background-color: antiquewhite;
   margin-top: 56px;
   min-width: 300px;
   min-height: 359px;
@@ -386,9 +387,8 @@ main {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  @media (max-width:1080px){
-    max-width: 0%;
-    min-width: 16%px;
+  @media (min-width:1080px){
+    display: flex;
   }
 }
 
