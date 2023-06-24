@@ -29,7 +29,6 @@ body {
 header {
 
   align-items: center;
-  background-color: rgba(126, 79, 79, 1);
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
@@ -53,7 +52,6 @@ header {
  main,section {
   margin-top: 25px;
   position: relative;
-  background-color: rgba(176, 48, 48, 1);
 }
 
 .Tenista {
@@ -267,7 +265,6 @@ header {
 .testimonios {
   flex: 0 0 100%;
   scroll-snap-align: start;
-  background-color: antiquewhite;
   margin-top: 56px;
   min-width: 300px;
   min-height: 359px;
@@ -370,7 +367,6 @@ header {
 .BTY {
   margin-top: 40px;
   gap: 50px;
-  top: 2300px;
   width: 100%;
   display: flex;
   padding: 40px 50px;
@@ -456,7 +452,7 @@ footer {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 1);
 }
-.mobile-text15 {
+.input::placeholder {
   color: rgba(160, 160, 160, 1);
   height: auto;
   font-size: 13.18055534362793px;
