@@ -24,6 +24,10 @@ body {
 .margin {
   margin-left: 10%;
   margin-right: 10%;
+  @media (min-width: 1080px) {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 
 .button.d-none{
@@ -48,7 +52,6 @@ header {
   height: 60px;
   min-height: 60px;
   @media (min-width: 1080px) {
-    background-color: rgba(112, 129, 166, 1);
     min-width: 1440px;
     min-height: 174px;
     padding: 65px 165px;
@@ -67,6 +70,10 @@ header {
     display: flex;
     flex-direction: row;
     gap: 10px;
+  }
+
+  .nav-item{
+    cursor: pointer;
   }
 
   .nav-text{
@@ -96,9 +103,11 @@ header {
   padding: 9.375px 6.563px;
 }
 
- main,section {
+main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
   margin-top: 25px;
-  position: relative;
 }
 
 .tenista_box{
@@ -118,16 +127,19 @@ header {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  max-width: 540px;
-  max-height: 369px;
 }
 
 .Tenista_img {
   height: 80%;
   width: 80%;
+  @media (min-width: 1080px) {
+    height: 100%;
+    width: 80%;
+  }
 }
 
 .frasehome {
+  align-items: flex-end;
   align-items: flex-end;
   display: flex;
   flex-direction: column;
@@ -156,7 +168,7 @@ header {
   @media (min-width: 1080px) {
     font-size: 3.125rem;
     line-height: 3.5rem;
-    height: 290px;
+    height: 280px;
   }
 }
 
@@ -188,6 +200,7 @@ header {
   justify-content: center;
   padding: 10px;
   width: 134px;
+  cursor: pointer;
 }
 
 .text_button {
@@ -212,26 +225,30 @@ header {
   justify-content: center;
   margin-top: 20px;
   padding: 40px 20px;
-  width: 100%;
+  min-width: 100%;
   @media (min-width: 1080px) {
+    background: #8B48BF;
     flex-direction: row;
+    min-width: 1440px;
     justify-content: space-evenly;
-    background-color:#8B48BF;
   }
 }
 
 .title_pros {
   color: rgba(255, 255, 255, 1);
-  height: auto;
+  height: 88px;
   font-size: 36px;
   align-self: stretch;
-  font-style: Bold;
   text-align: left;
   font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
+  line-height: 114%;
   font-stretch: normal;
   text-decoration: none;
-  max-width: 450px;
+  @media (min-width: 1080px) {
+    height: 88px;
+    width: 450px;
+  }
 }
 
 .content_pros {
@@ -240,15 +257,17 @@ header {
   font-family: "Be Vietnam Thin", sans-serif;
   font-size: 16px;
   font-stretch: normal;
+  font-style: Medium;
   font-weight: 500;
   height: auto;
   line-height: 151%;
   margin-top: 50px;
   text-align: left;
   text-decoration: none;
-  max-width: 450px;
   @media (min-width: 1080px) {
-    margin-top: 0%;
+    height: 88px;
+    width: 450px;
+    margin-top: 0px;
   }
 }
 
@@ -353,17 +372,13 @@ header {
 .no_slide{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   @media (max-width:1080px){
     display: none;
   }
 }
 .testimonios {
-  flex: 0 0 100%;
-  scroll-snap-align: start;
   margin-top: 56px;
   min-width: 300px;
   min-height: 359px;
@@ -476,6 +491,7 @@ header {
 .BTY {
   margin-top: 40px;
   gap: 50px;
+  top: 2300px;
   width: 100%;
   display: flex;
   padding: 40px 50px;
@@ -541,6 +557,7 @@ footer {
   width: 100%;
   display: flex;
   padding: 40px 0;
+
   align-items: center;
   flex-direction: column;
   background-color: rgb(30, 30, 38);
@@ -586,7 +603,7 @@ footer {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 1);
 }
-.input::placeholder {
+.mobile-text15 {
   color: rgba(160, 160, 160, 1);
   height: auto;
   font-size: 13.18055534362793px;
