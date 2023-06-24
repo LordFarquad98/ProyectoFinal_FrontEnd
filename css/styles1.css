@@ -55,6 +55,7 @@ header {
 }
 
 .Tenista {
+<<<<<<< HEAD
   width: 100%;
   display: flex;
   align-items: center;
@@ -62,6 +63,17 @@ header {
   box-sizing: border-box;
   max-width: 540px;
   max-height: 369px;
+=======
+    gap: 100px;
+    top: 164px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+>>>>>>> 5b1018343e3e9d007f028ab5503a80acc2e12872
 }
 
 .Tenista_img {
@@ -141,6 +153,7 @@ header {
 }
 
 .title_pros {
+<<<<<<< HEAD
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 36px;
@@ -666,3 +679,657 @@ footer {
   display: flex;
  }
 }
+=======
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 36px;
+    align-self: stretch;
+    font-style: Bold;
+    text-align: left;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+    line-height: 114%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .Differences {
+    gap: 20px;
+    top: 1250px;
+    left: 34px;
+    width: 88%;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    
+  }
+  .difference1 {
+    gap: 21px;
+    width: 446px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .Hdifference1 {
+    gap: 8px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px 0 0 50px;
+    background-color: rgba(138, 71, 191, 0.30000001192092896);
+  }
+  .Bdifference1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgba(138, 71, 191, 1);
+  }
+  .ndifference1 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .Tdifference1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .Ttdifference1 {
+    color: rgba(50, 56, 81, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .cdifference1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .cpdifference1 {
+    color: rgba(179, 178, 183, 1);
+    width: 360px;
+    height: auto;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 156%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .difference2 {
+    gap: 21px;
+    width: 446px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .Hdifference2 {
+    gap: 8px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px 0 0 50px;
+    background-color: rgba(138, 71, 191, 0.30000001192092896);
+  }
+  .Bdifference2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgba(138, 71, 191, 1);
+  }
+  .ndifference2 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .Tdifference2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .Ttdifference2 {
+    color: rgba(50, 56, 81, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .cdifference2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .cpdifference2 {
+    color: rgba(179, 178, 183, 1);
+    width: 360px;
+    height: auto;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 156%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .difference3 {
+    gap: 21px;
+    width: 446px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .Hdifference3 {
+    gap: 8px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px 0 0 50px;
+    background-color: rgba(138, 71, 191, 0.30000001192092896);
+  }
+  .Bdifference3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgba(138, 71, 191, 1);
+  }
+  .ndifference3 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .Tdifference3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .Ttdifference3 {
+    color: rgba(50, 56, 81, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .cdifference3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .cpdifference3 {
+    color: rgba(179, 178, 183, 1);
+    width: 360px;
+    height: auto;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 156%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .testimonios {
+    top: 1900px;
+    width: 445px;
+    height: 478px;
+    display: flex;
+    position: absolute;
+    flex-shrink: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .Best-text {
+    color: rgba(36, 46, 83, 1);
+    width: 334px;
+    height: auto;
+    position: relative;
+    top: -30px;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+    line-height: 156%;
+    font-stretch: normal;
+  }
+  .avatar {
+    gap: 21px;
+    top: 0px;
+    left: 27px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .avatar_image {
+    top: 50px;
+    width: 71px;
+    height: 71px;
+    position: relative;
+  }
+  .Tbest{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 219px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .avatar_name {
+    color: rgba(63, 72, 104, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 156%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .avatar_desc {
+    color: rgba(185, 185, 193, 1);
+    width: 390px;
+    height: auto;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 156%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .more-button {
+    gap: 10px;
+    top: 310px;
+    left: 156px;
+    width: 134px;
+    height: 44px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: rgba(138, 71, 191, 1);
+  }
+  .more-button-text {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 13px;
+    font-style: Medium;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .BTY {
+    gap: 50px;
+    top: 2300px;
+    width: 100%;
+    display: flex;
+    padding: 40px 50px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(59, 221, 243, 1);
+  }
+  .BTY-text {
+    color: rgba(255, 255, 255, 1);
+    width: 324px;
+    height: auto;
+    font-size: 40px;
+    font-style: Bold;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 119.59999799728394%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .BTY-button {
+    gap: 10px;
+    width: 134px;
+    height: 44px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: rgba(35, 44, 80, 1);
+  }
+  .BTY-button-text {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 13.18055534362793px;
+    font-style: Medium;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  footer {
+    top: 2620px;
+    width: 100%;
+    display: flex;
+    padding: 40px 0;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(30, 30, 38);
+  }
+  .mobile-frame20 {
+    gap: 10px;
+    display: flex;
+    padding: 10px 50px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mobile-buscador {
+    gap: 9px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+  .mobile-button2 {
+    gap: 10px;
+    height: 44px;
+    display: flex;
+    padding: 10px;
+    flex-grow: 1;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .mobile-text15 {
+    color: rgba(160, 160, 160, 1);
+    height: auto;
+    font-size: 13.18055534362793px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-button3 {
+    gap: 10px;
+    width: 63px;
+    height: 42px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: rgba(138, 71, 191, 1);
+  }
+  .mobile-text17 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 13.18055534362793px;
+    font-weight: normal;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-frame19 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mobile-sections {
+    gap: 150px;
+    height: 141.14285278320312px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .mobile-frame12 {
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mobile-text19 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-text21 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-text23 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-text25 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-frame13 {
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mobile-text27 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-text29 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-text31 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mobile-frame22 {
+    gap: 10px;
+    height: 42px;
+    display: flex;
+    padding: 10px 50px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mobile-iconosredessociales {
+    width: 380px;
+    height: 22px;
+    align-self: stretch;
+  }
+  .mobile-frame18 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .mobile-group51 {
+    width: 108px;
+    height: 25px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .mobile-subtract1 {
+    top: 0px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+  }
+  .mobile-sportit1 {
+    top: 0px;
+    left: 34px;
+    width: 74px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+  }
+  .mobile-frame21 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .mobile-text33 {
+    color: rgba(140, 140, 148, 1);
+    height: auto;
+    font-size: 12.5px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Be Vietnam;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+>>>>>>> 5b1018343e3e9d007f028ab5503a80acc2e12872
