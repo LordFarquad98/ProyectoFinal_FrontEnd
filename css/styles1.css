@@ -200,6 +200,7 @@ main {
   justify-content: center;
   padding: 10px;
   width: 134px;
+  cursor: pointer;
 }
 
 .text_button {
@@ -241,6 +242,7 @@ main {
   text-align: left;
   font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
+  line-height: 114%;
   font-stretch: normal;
   text-decoration: none;
   @media (min-width: 1080px) {
@@ -255,13 +257,18 @@ main {
   font-family: "Be Vietnam Thin", sans-serif;
   font-size: 16px;
   font-stretch: normal;
+  font-style: Medium;
   font-weight: 500;
   height: auto;
   line-height: 151%;
   margin-top: 50px;
   text-align: left;
   text-decoration: none;
-  
+  @media (min-width: 1080px) {
+    height: 88px;
+    width: 450px;
+    margin-top: 0px;
+  }
 }
 
 .Differences {
