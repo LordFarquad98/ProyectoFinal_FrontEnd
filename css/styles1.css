@@ -373,7 +373,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   @media (max-width:1080px){
     display: none;
   }
@@ -518,7 +518,8 @@ main {
   font-stretch: normal;
   text-decoration: none;
   @media (min-width:1080px){
-    height: 195px;
+    height: 197px;
+    text-align: left;
   }
 }
 .BTY-button {
@@ -557,8 +558,7 @@ footer {
   width: 100%;
   display: flex;
   padding: 40px 0;
-
-  align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: rgb(30, 30, 38);
   @media (min-width:1080px){
@@ -567,12 +567,17 @@ footer {
   }
 }
 .footer-movile{
-  @media (max-width:1080px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width:1080px) {
     display: none;
   }
 }
 .footer-pc{
-  @media (min-width:1080px) {
+  display: flex;
+  flex-direction: row-reverse;
+  @media (max-width:1080px) {
     display: none;
   }
 }
@@ -583,6 +588,12 @@ footer {
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
+  @media (min-width:1080px){
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 .mobile-buscador {
   gap: 9px;
@@ -606,10 +617,10 @@ footer {
 .mobile-text15 {
   color: rgba(160, 160, 160, 1);
   height: auto;
-  font-size: 13.18055534362793px;
+  font-size: 13px;
   font-weight: bold;
   text-align: left;
-  font-family: sans-serif;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -618,7 +629,7 @@ footer {
 .mobile-button3 {
   gap: 10px;
   width: 63px;
-  height: 42px;
+  height: 44px;
   display: flex;
   padding: 10px;
   align-items: center;
@@ -630,10 +641,10 @@ footer {
 .mobile-text17 {
   color: rgba(255, 255, 255, 1);
   height: auto;
-  font-size: 13.18055534362793px;
+  font-size: 13px;
   font-weight: normal;
   text-align: left;
-  font-family: sans-serif;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
@@ -664,7 +675,7 @@ footer {
   height: auto;
   font-size: 16px;
   text-align: left;
-  font-family: sans-serif;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -674,9 +685,8 @@ footer {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -686,9 +696,8 @@ footer {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -698,9 +707,8 @@ footer {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -716,9 +724,8 @@ footer {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -728,9 +735,8 @@ footer {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -740,9 +746,8 @@ footer {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 16px;
-  font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -773,7 +778,7 @@ footer {
 }
 .mobile-group51 {
   width: 108px;
-  height: 25px;
+  height: 30px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -800,6 +805,11 @@ footer {
   display: flex;
   padding: 10px;
   align-items: flex-start;
+  @media (min-width:1080px){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 .mobile-text33 {
   color: rgba(140, 140, 148, 1);
@@ -807,7 +817,7 @@ footer {
   font-size: 12.5px;
   font-style: Medium;
   text-align: left;
-  font-family: Be Vietnam;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
