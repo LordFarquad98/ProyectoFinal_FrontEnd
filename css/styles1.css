@@ -223,21 +223,30 @@ main {
   justify-content: center;
   margin-top: 20px;
   padding: 40px 20px;
-  width: 100%;
+  min-width: 100%;
+  @media (min-width: 1080px) {
+    background: #8B48BF;
+    flex-direction: row;
+    min-width: 1440px;
+    justify-content: space-evenly;
+  }
 }
 
 .title_pros {
   color: rgba(255, 255, 255, 1);
-  height: auto;
+  height: 88px;
   font-size: 36px;
   align-self: stretch;
-  font-style: Bold;
   text-align: left;
   font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: 114%;
   font-stretch: normal;
   text-decoration: none;
+  @media (min-width: 1080px) {
+    height: 88px;
+    width: 450px;
+  }
 }
 
 .content_pros {
@@ -253,6 +262,11 @@ main {
   margin-top: 50px;
   text-align: left;
   text-decoration: none;
+  @media (min-width: 1080px) {
+    height: 88px;
+    width: 450px;
+    margin-top: 0px;
+  }
 }
 
 .Differences {
