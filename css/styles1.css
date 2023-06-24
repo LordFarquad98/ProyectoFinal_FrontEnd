@@ -368,6 +368,10 @@ header {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  @media (max-width:1080px){
+    max-width: 0%;
+    min-width: 16%px;
+  }
 }
 
 .Best-text {
