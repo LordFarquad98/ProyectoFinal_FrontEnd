@@ -26,8 +26,19 @@ body {
   margin-right: 10%;
 }
 
-header {
+.button.d-none{
+  @media (max-width: 1080px) {
+    display: none;
+  }
+}
 
+nav{
+  @media (max-width: 1080px) {
+    display: none;
+  }
+}
+
+header {
   align-items: center;
   background-color: rgba(126, 79, 79, 1);
   display: flex;
@@ -37,7 +48,43 @@ header {
   min-width: 367px;
   height: 60px;
   min-height: 60px;
+  @media (min-width: 1080px) {
+    background-color: rgba(112, 129, 166, 1);
+    min-width: 1440px;
+    min-height: 174px;
+    padding: 65px 165px;
+  }
 }
+
+
+
+.nav {
+  display: none;
+  @media (min-width: 1080px) {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .nav-text{
+    color: #242E52;
+    height: auto;
+    font-size: 1rem;
+    font-style: Medium;
+    text-align: left;
+    font-family: "Be Vietnam Thin", sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+}
+
+
 
 .LogoBox {
   height: 25px;
@@ -55,9 +102,19 @@ main {
   flex-direction: column;
   justify-items: center;
   margin-top: 25px;
-  position: relative;
   background-color: rgba(176, 48, 48, 1);
 }
+
+.tenista_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (min-width: 1080px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 
 .Tenista {
   width: 100%;
@@ -79,9 +136,13 @@ main {
   margin-top: 60px;
   max-width: 100%;
   min-height: 228px;
-  width: 400px;
   justify-content: space-around;
-  flex: 1 400px
+  width: 400px;
+  flex: 1 400px;
+  @media (min-width: 1080px) {
+    width: 450px;
+    flex: 1 780px;
+  }
 }
 
 .textHome {
@@ -92,6 +153,13 @@ main {
   letter-spacing: -0.035em;
   line-height: 2.5rem;
   text-align: right;
+  min-height: 170px;
+  max-height: 300px;
+  @media (min-width: 1080px) {
+    font-size: 3.125rem;
+    line-height: 3.5rem;
+    height: 290px;
+  }
 }
 
 .contentHome {
@@ -102,6 +170,13 @@ main {
   letter-spacing: 0em;
   line-height: 1.625rem;
   text-align: right;
+  @media (min-width: 1080px) {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    height: 71px;
+    width: 600px;
+    z-index: 99;
+  }
 }
 
 .button {
@@ -130,7 +205,6 @@ main {
   text-decoration: none;
 }
 
-
 .pros {
   align-items: center;
   background-color: rgba(59, 221, 243, 1);
@@ -156,7 +230,6 @@ main {
   font-stretch: normal;
   text-decoration: none;
 }
-
 
 .content_pros {
   align-self: stretch;
@@ -213,7 +286,7 @@ main {
   font-size: 16px;
   font-style: Bold;
   text-align: left;
-  font-family: "Be Vietnam Thin", sans-serif;;
+  font-family: "Be Vietnam Thin", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -302,8 +375,6 @@ main {
   box-sizing: border-box;
   justify-content: center;
 }
-
-
 
 .avatar_name {
   margin-top: 33px;
@@ -409,9 +480,7 @@ main {
   text-decoration: none;
 }
 
-
 footer {
-
   width: 100%;
   display: flex;
   padding: 40px 0;
@@ -656,4 +725,45 @@ footer {
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+
+@media (min-width: 1080px) {
+  .conteiner_burger {
+    display: none;
+  }
+  /* .margin{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .Differences{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+  .pros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #8B48BF;
+  }
+  .BTY{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #8B48BF;
+  }
+  .BTY-text{
+    text-align: left;
+  }
+  .BTY-button{
+    background: #FFFF;
+  }
+  .BTY-button-text{
+    color: #8B48BF;
+  } */
 }
